@@ -1,8 +1,11 @@
 #Code for INDicium 
+#Witten By Vedant Parekh
 import numpy as np
 from itertools import permutations
 t=int(input())
+N=0
 for u in range(0,t):
+    x=[]
     l=[]
     l1=[]
     y=[]
@@ -43,7 +46,12 @@ for u in range(0,t):
             m=1
             break
     if(m==1):
-        print('Case #{}: POSSIBLE'.format(u+1))
-        print(new_arr2[0])
+        x=list(new_arr2[0])
+        print("Case #{}: POSSIBLE".format(u+1))
+        for i in x:
+            for j in range(0,N):
+                print(i[j],end=' ')
+            print()
+
     else:
         print('Case #{}: IMPOSSIBLE'.format(u+1))
