@@ -1,0 +1,18 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Thu Apr 16 11:47:05 2020
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Starting "VEDANT"."SYS_EXPORT_TABLE_01":  vedant/******** tables=PRODUCT DIRECTORY=dpdir DUMPFILE=product.dmp LOGFILE=product1.log 
+Estimate in progress using BLOCKS method...
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 64 KB
+Processing object type TABLE_EXPORT/TABLE/TABLE
+. . exported "VEDANT"."PRODUCT"                          8.273 KB       5 rows
+Master table "VEDANT"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for VEDANT.SYS_EXPORT_TABLE_01 is:
+  E:\ORACLEBACKUP\PRODUCT.DMP
+Job "VEDANT"."SYS_EXPORT_TABLE_01" successfully completed at 11:47:09
